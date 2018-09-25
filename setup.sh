@@ -3,8 +3,8 @@ set -eu
 
 cd $(dirname "$0")
 
-JAVA_JDK=jdk-8u172-linux-x64.tar.gz
-JAVA_URL=http://download.oracle.com/otn-pub/java/jdk/8u172-b11/a58eab1ec242421181065cdc37240b08/jdk-8u172-linux-x64.tar.gz
+JAVA_JDK=jdk-8u181-linux-x64.tar.gz
+JAVA_URL=http://download.oracle.com/otn-pub/java/jdk/8u181-b13/96a7b8442fe848ef90c96a2fad6ed6d1/jdk-8u181-linux-x64.tar.gz
 
 if [ ! -f _deps/$JAVA_JDK ]; then
     curl -k -L \
